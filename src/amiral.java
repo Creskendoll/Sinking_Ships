@@ -48,7 +48,7 @@ public class amiral {
      if(yesNo.equals("n")){ //Manual input of ships
     	  printBoard(userBoard);
     	   System.out.println(); 
-    	 for (int i = 0; i < 1; i++) { //place your ships -----selectedShip.length-1
+    	 for (int i = 0; i < selectedShip.length-1; i++) { //place your ships -----
         	 int bayrak = 0;
         	 for (int k = 2; k <= 5; k++) { //prints the ships that are available
         		 for (int j = 0; j < selectedShip.length; j++) {
